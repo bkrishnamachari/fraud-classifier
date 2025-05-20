@@ -9,6 +9,12 @@ of the Elliptic dataset.  The subset has a total of 9,090 transactions: 4,545
 licit (label ``0``) and 4,545 illicit (label ``1``).  Each transaction is
 represented by only the first 100 features (out of the original 166) from the
 full dataset.
+
+One reason to work with this smaller balanced subset is that the resulting features 
+file is a lot smaller than the original, which can be helpful in working with various
+cloud platforms with limited storage/upload limits. Another is that it's a lot faster
+to train and evaluate, which is good for illustrative purposes. 
+
 """
 
 #!/usr/bin/env python3
