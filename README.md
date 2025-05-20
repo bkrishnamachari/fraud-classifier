@@ -41,3 +41,5 @@ python elliptic_classification_mlp.py
 The script prints training progress, overall accuracy, and a detailed classification report.
 
 The dataset files are not included in this repository due to licensing restrictions.
+
+See license file.
